@@ -294,10 +294,10 @@ function App() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-white rounded-lg shadow-sm">
                     <div className="text-3xl font-bold text-blue-600">3+</div>
-                    <div className="text-sm text-gray-600">Years Experience</div>
+                    <div className="text-sm text-gray-600">Internships</div>
                   </div>
                   <div className="text-center p-4 bg-white rounded-lg shadow-sm">
-                    <div className="text-3xl font-bold text-purple-600">15+</div>
+                    <div className="text-3xl font-bold text-purple-600">5+</div>
                     <div className="text-sm text-gray-600">Projects Completed</div>
                   </div>
                   <div className="text-center p-4 bg-white rounded-lg shadow-sm">

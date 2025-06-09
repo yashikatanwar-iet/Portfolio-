@@ -173,20 +173,6 @@ const ContactForm: React.FC = () => {
           </div>
         )}
       </form>
-      
-      {/* Setup Instructions */}
-      <div className="mt-8 p-4 bg-yellow-500/20 border border-yellow-400/30 rounded-lg">
-        <h4 className="text-yellow-200 font-semibold mb-2">⚠️ Setup Required</h4>
-        <p className="text-yellow-100 text-sm">
-          To make this form work, you need to:
-        </p>
-        <ol className="text-yellow-100 text-sm mt-2 space-y-1 list-decimal list-inside">
-          <li>Create an account at <a href="https://emailjs.com" target="_blank" rel="noopener noreferrer" className="underline">emailjs.com</a></li>
-          <li>Create an email service and template</li>
-          <li>Replace the placeholder IDs in ContactForm.tsx</li>
-          <li>Remove this setup notice</li>
-        </ol>
-      </div>
     </div>
   );
 };
